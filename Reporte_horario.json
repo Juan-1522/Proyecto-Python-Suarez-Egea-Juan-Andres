@@ -1,0 +1,19 @@
+[
+ {
+ "dia": "Lunes",
+ "eventos": [
+ {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
+"ubicacion": "Aula 101"},
+ {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
+"ubicacion": "Laboratorio 3"},
+ {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
+"ubicacion": "Aula 101"},
+ {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
+"ubicacion": "Laboratorio 3"},
+ {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
+"ubicacion": "Aula 101"},
+ {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
+"ubicacion": "Laboratorio 3"}
+ ]
+ }
+]
