@@ -2,17 +2,41 @@
 #Por eso la llamé así xddd
 
 import json
+from datetime import datetime
+
+def validar_hora(hora):
+     try:
+          datetime.strptime(hora, "%I:%M &p")
+          return True
+     except ValueError:
+          return False
 
 def registrar_horario():
-    print("\n ========= Registrar Materia =========== \n")
+    print("============ Registrar Materia ==============")
     
     with open("Horario.json", "r", encoding="utf-8") as archivo:
         horario = json.load(archivo)
     
         materia = input("Ingrese la materia o actividad: ")
         dia = input("Ingrese el dia de la semana: ")
-        hora_inicio = input("Ingrese la hora de inicio (24h): ")
-        hora_salida = input("Ingrese la hora de salida (24h): ")
+
+        while True:
+             hora_inicio = input("Ingrese la hora de inicio (24h): ")
+
+             if validar_hora(hora_inicio):
+                  break
+             else:
+                  print("Hora de inicio inválida. No se puede poner esa hora de clase")
+
+        while True:
+             hora_salida = input("Ingrese la hora de salida (24h): ")
+
+             if validar_hora(hora_salida):
+                  break
+             else:
+                  print("Hora de salida inválida. No se puede poner esa hora de clase")
+
+        
         ubicacion = input("Ingrese la ubicacion (opcional): ")
     
         nuevo_evento = {
@@ -104,7 +128,7 @@ def eliminar_horario():
           print("Materia eliminada con exito")
 
 def generar_reporte():
-     print("\n Reporte Semanal \n")
+     print("========= Reporte Semanal =========")
 
      with open("Horario.json", "r", encoding="utf-8") as archivo:
           horario = json.load(archivo)
@@ -125,26 +149,28 @@ def generar_reporte():
                               "ubicacion": evento["ubicacion"]  
                          })
 
-                         reporte.append({
-                              "dia": dia,
-                              "eventos": eventos_dia
+               reporte.append({
+                    "dia": dia,
+                    "eventos": eventos_dia
                          })
 
-               for dia in reporte:
-                    print(dia["dia"] + ":")
+          for dia in reporte:
+               print(dia["dia"] + ":")
 
-                    if len(dia["eventos"]) == 0:
-                         print("- Libre")
+               if len(dia["eventos"]) == 0:
+                    print("- Libre")
+                    print("-------------------------------------------------")
 
-                    else: 
-                         for evento in dia["eventos"]:
-                              print("-", evento["materia"], 
-                                   "(" + evento["hora_inicio"] + " - " + evento["hora_salida"] + ")", "en", evento["ubicacion"])
+               else: 
+                    for evento in dia["eventos"]:
+                         print("-", evento["materia"], 
+                              "(" + evento["hora_inicio"] + " - " + evento["hora_salida"] + ")", "en", evento["ubicacion"])
 
                     print("-------------------------------------------------")
 
           with open("Reporte_horario.json", "w", encoding="utf-8") as archivo:
                json.dump(reporte, archivo, indent=4, ensure_ascii=False)
 
-               print(" Reporte generado con exito")
-               print("Presione ENTER para continuar")
+               print("\n===== Reporte generado con exito =====\n")
+               print("\nPresione ENTER para continuar\n")
+               input()

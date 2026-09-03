@@ -19,5 +19,26 @@
         "hora_inicio": "7:30 am",
         "hora_salida": "9:00 am",
         "ubicacion": "Laboratorio"
+    },
+    {
+        "materia": "Dibujo Técnico",
+        "dia": "Miércoles",
+        "hora_inicio": "1:00 pm",
+        "hora_salida": "2:00 pm",
+        "ubicacion": "Salon de clases"
+    },
+    {
+        "materia": "Inglés",
+        "dia": "Martes",
+        "hora_inicio": "12:00 pm",
+        "hora_salida": "1:00 pm",
+        "ubicacion": "Salon de clase"
+    },
+    {
+        "materia": "Matemáticas",
+        "dia": "Jueves",
+        "hora_inicio": "7:00 am",
+        "hora_salida": "9:00 am",
+        "ubicacion": "Salon de clases"
     }
 ]
