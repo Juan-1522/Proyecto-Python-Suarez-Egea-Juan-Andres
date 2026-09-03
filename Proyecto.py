@@ -13,6 +13,7 @@ while True:
     print("\n=====================================================\n")
 
     opcion = input("Seleccione alguna de las opciones: ")
+    print("-------------------------------------------")
 
     if opcion == "1":
         registrar_horario()
@@ -23,9 +24,11 @@ while True:
     if opcion == "3":
         modificar_horario()
 
-    #if opcion == "4":
+    if opcion == "4":
+        eliminar_horario()
 
-    #if opcion == "5":
+    if opcion == "5":
+        generar_reporte()
 
     if opcion == "6":
         print("Horario finalizado, gracias por usar el programa")

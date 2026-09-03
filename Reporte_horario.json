@@ -1,19 +1,35 @@
 [
- {
- "dia": "Lunes",
- "eventos": [
- {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
-"ubicacion": "Aula 101"},
- {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
-"ubicacion": "Laboratorio 3"},
- {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
-"ubicacion": "Aula 101"},
- {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
-"ubicacion": "Laboratorio 3"},
- {"materia": "Matemáticas", "hora_inicio": "08:00", "hora_fin": "10:00",
-"ubicacion": "Aula 101"},
- {"materia": "Programación", "hora_inicio": "14:00", "hora_fin": "16:00",
-"ubicacion": "Laboratorio 3"}
- ]
- }
+    {
+        "dia": "Martes",
+        "eventos": [
+            {
+                "materia": "Quimica",
+                "hora_inicio": "7:30 am",
+                "hora_salida": "9:00 am",
+                "ubicacion": "Laboratorio"
+            }
+        ]
+    },
+    {
+        "dia": "Jueves",
+        "eventos": [
+            {
+                "materia": "Fisica",
+                "hora_inicio": "10:00",
+                "hora_salida": "12:00",
+                "ubicacion": "Laboratorio fisica"
+            }
+        ]
+    },
+    {
+        "dia": "Viernes",
+        "eventos": [
+            {
+                "materia": "Educacion Fisica",
+                "hora_inicio": "10:00",
+                "hora_salida": "12:30",
+                "ubicacion": "Gimnasio"
+            }
+        ]
+    }
 ]
