@@ -1,19 +1,19 @@
 import json
-from funcion_de_angie import *
+from funciones import *
 while True:
     print("\n====================================================\n")
-    print("\n GENERADOR DE HORARIO PARA LOS ESTUDIANTES v.1.0 \n")
+    print("   GENERADOR DE HORARIO PARA LOS ESTUDIANTES v.1.0   ")
     print("\n====================================================\n")
     print("1. Registrar una materia o actividad")
-    print("2. Ver horario semanal")
-    print("3. Modificar el horario o una actividad")
+    print("2. Ver horario actual")
+    print("3. Modificar el horario o actividad")
     print("4. Eliminar una materia del horario o actividad")
-    print("5. Generar reporte")
+    print("5. Generar reporte del horario")
     print("6. Salir")
     print("\n=====================================================\n")
 
     opcion = input("Seleccione alguna de las opciones: ")
-    print("\n-------------------------------------------\n")
+    print("\n---------------------------------------------------\n")
 
     if opcion == "1":
         registrar_horario()
@@ -32,7 +32,7 @@ while True:
 
     if opcion == "6":
         print("Horario finalizado, gracias por usar el programa")
-        print("\n-------------------------------------------\n")
+        print("\n----------------------------------------------------\n")
         break
 
         

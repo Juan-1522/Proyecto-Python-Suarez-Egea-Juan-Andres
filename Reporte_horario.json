@@ -1,7 +1,20 @@
 [
     {
         "dia": "Lunes",
-        "eventos": []
+        "eventos": [
+            {
+                "materia": "Filosofía",
+                "hora_inicio": "8:10 am",
+                "hora_salida": "12:00 pm",
+                "ubicacion": "Aula de clase"
+            },
+            {
+                "materia": "Matemáticas",
+                "hora_inicio": "1:00 pm",
+                "hora_salida": "2:20 pm",
+                "ubicacion": "Salón de clases"
+            }
+        ]
     },
     {
         "dia": "Martes",
@@ -13,6 +26,12 @@
                 "ubicacion": "Laboratorio"
             },
             {
+                "materia": "Música",
+                "hora_inicio": "10:00 am",
+                "hora_salida": "12:00 pm",
+                "ubicacion": "Salón de música"
+            },
+            {
                 "materia": "Inglés",
                 "hora_inicio": "12:00 pm",
                 "hora_salida": "1:00 pm",
@@ -21,23 +40,60 @@
         ]
     },
     {
-        "dia": "Miercoles",
-        "eventos": []
+        "dia": "Miércoles",
+        "eventos": [
+            {
+                "materia": "Programación",
+                "hora_inicio": "6:30 am",
+                "hora_salida": "7:20 am",
+                "ubicacion": "Aula de clase"
+            },
+            {
+                "materia": "Lengua Castellana",
+                "hora_inicio": "7:00 am",
+                "hora_salida": "8:10 am",
+                "ubicacion": "Aula de clase"
+            },
+            {
+                "materia": "Geometría",
+                "hora_inicio": "8:10 am",
+                "hora_salida": "9:20 am",
+                "ubicacion": "Salón de clase"
+            },
+            {
+                "materia": "Dibujo Técnico",
+                "hora_inicio": "1:00 pm",
+                "hora_salida": "2:00 pm",
+                "ubicacion": "Salon de clases"
+            }
+        ]
     },
     {
         "dia": "Jueves",
         "eventos": [
             {
-                "materia": "Fisica",
-                "hora_inicio": "10:00",
-                "hora_salida": "12:00",
-                "ubicacion": "Laboratorio fisica"
-            },
-            {
                 "materia": "Matemáticas",
                 "hora_inicio": "7:00 am",
                 "hora_salida": "9:00 am",
                 "ubicacion": "Salon de clases"
+            },
+            {
+                "materia": "Música",
+                "hora_inicio": "9:00 am",
+                "hora_salida": "10:00 am",
+                "ubicacion": "Salón de música"
+            },
+            {
+                "materia": "Física",
+                "hora_inicio": "10:00 am",
+                "hora_salida": "12:00 pm",
+                "ubicacion": "Laboratorio Física"
+            },
+            {
+                "materia": "Descanso",
+                "hora_inicio": "12:00 pm",
+                "hora_salida": "1:00 pm",
+                "ubicacion": ""
             }
         ]
     },

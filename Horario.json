@@ -7,11 +7,11 @@
         "ubicacion": "Gimnasio"
     },
     {
-        "materia": "Fisica",
+        "materia": "Física",
         "dia": "Jueves",
-        "hora_inicio": "10:00",
-        "hora_salida": "12:00",
-        "ubicacion": "Laboratorio fisica"
+        "hora_inicio": "10:00 am",
+        "hora_salida": "12:00 pm",
+        "ubicacion": "Laboratorio Física"
     },
     {
         "materia": "Quimica",
@@ -40,5 +40,61 @@
         "hora_inicio": "7:00 am",
         "hora_salida": "9:00 am",
         "ubicacion": "Salon de clases"
+    },
+    {
+        "materia": "Lengua Castellana",
+        "dia": "Miércoles",
+        "hora_inicio": "7:00 am",
+        "hora_salida": "8:10 am",
+        "ubicacion": "Aula de clase"
+    },
+    {
+        "materia": "Descanso",
+        "dia": "Jueves",
+        "hora_inicio": "12:00 pm",
+        "hora_salida": "1:00 pm",
+        "ubicacion": ""
+    },
+    {
+        "materia": "Música",
+        "dia": "Martes",
+        "hora_inicio": "10:00 am",
+        "hora_salida": "12:00 pm",
+        "ubicacion": "Salón de música"
+    },
+    {
+        "materia": "Música",
+        "dia": "Jueves",
+        "hora_inicio": "9:00 am",
+        "hora_salida": "10:00 am",
+        "ubicacion": "Salón de música"
+    },
+    {
+        "materia": "Filosofía",
+        "dia": "Lunes",
+        "hora_inicio": "8:10 am",
+        "hora_salida": "12:00 pm",
+        "ubicacion": "Aula de clase"
+    },
+    {
+        "materia": "Geometría",
+        "dia": "Miércoles",
+        "hora_inicio": "8:10 am",
+        "hora_salida": "9:20 am",
+        "ubicacion": "Salón de clase"
+    },
+    {
+        "materia": "Programación",
+        "dia": "Miércoles",
+        "hora_inicio": "6:30 am",
+        "hora_salida": "7:20 am",
+        "ubicacion": "Aula de clase"
+    },
+    {
+        "materia": "Matemáticas",
+        "dia": "Lunes",
+        "hora_inicio": "1:00 pm",
+        "hora_salida": "2:20 pm",
+        "ubicacion": "Salón de clases"
     }
 ]
